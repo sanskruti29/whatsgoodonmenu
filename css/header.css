@@ -1,0 +1,50 @@
+/*layout_header*/		
+.head_layout	{
+		text-align:center;
+		background: #C21A09;
+	        font-weight: bold;
+	        color: white;
+	        font-family:"Arial, Helvetica, sans-serif";
+	        padding: 0.1px;
+	        text-decoration: none;
+		position: static;
+    		margin: auto;
+    		display: block;
+		}
+		
+.head_layout a {
+		color: #FFFFFF;
+		text-decoration: none;	
+		}
+		
+.head_layout h1 {
+		padding: 10px;
+    		margin: 0px;
+		}
+		
+/*top navigation bar*/
+.top_nav 	{
+		overflow: hidden;
+    		background-color: #7E191B;
+    		font-size: medium;
+    		font-weight:bold;
+    		}
+/* Style the topnav links */
+.top_nav a 	{
+    		float: left;
+    		display: block;
+    		color: #FFFFFF;
+   		text-align: center;
+    		padding: 10px 10px;
+    		text-decoration: none;
+    		}
+    		
+.top_nav a:visited	{color:#FFFFFF;}
+.top_nav a:active	{color: #FFFFFF;}
+
+/* Change color on hover */
+.top_nav a:hover {
+    		background-color:#C21A09;
+    		color: #FFFFFF;
+		}
+		

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Create an Account</title>
+		<link rel="stylesheet" href="home_layout.css" type="text/css">
+		<link rel="stylesheet" href="good-styles.css" type="text/css">
+	</head>
+	<body>
+		<div>
+			<iframe class="iframe_header" src="header.html" ></iframe>
+		</div>
+		<h3>Create an Account</h3>
+		<form method="post" action="">
+			<!--Using a Textbox-->
+			First Name:&nbsp;&nbsp; <input type="text" name=" " size="30">
+			<br /><br />
+			Last Name:&nbsp;&nbsp; <input type="text" name=" " size="30">
+			<br /><br/>
+			Birthday: &nbsp;&nbsp; <input type="date" name="bday">
+			<br /><br />
+			<!--Using a Radio Button-->
+			Select Gender:&nbsp;&nbsp; 
+			<label for="male">Male</label>
+  			<input type="radio" name="gender" id="male" value="male">&nbsp;&nbsp;
+  			<label for="female">Female</label>
+  			<input type="radio" name="gender" id="female" value="female">&nbsp;&nbsp;
+  			<label for="other">Other</label>
+  			<input type="radio" name="gender" id="other" value="other">&nbsp;
+			<br /><br/>
+			Email: &nbsp;&nbsp; <input type="email" name="Email" size="40">
+			<br /><br />
+			Phone: &nbsp;&nbsp;
+			<input type="tel" name="usrtel">
+			<br /><br/>
+			Password:&nbsp;&nbsp;
+			<input type="text" name=" " size="30">
+			<br /><br />
+			Confirm Password:&nbsp;&nbsp;
+			<input type="text" name=" " size="30">
+			<br /><br />
+			<!--Using Checkboxes-->
+			<input type="checkbox" name="resident" checked>I agree to Whats Good on Menu's Terms of Service, Privacy Policy and Content Policies<br />
+			<br />
+			<input type="Submit" value="Sign Up">
+			<input type="Reset">
+		</form>
+	</body>
+</html>

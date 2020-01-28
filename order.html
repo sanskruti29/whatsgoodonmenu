@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Find a Restuarant</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="good-styles.css" type="text/css">
+	</head>
+	<body>
+		<iframe class="iframe_header" src="header.html"></iframe>
+		<div class ="container_form">
+		<br />
+			
+			<form target="_blank" method="get" action="http://whatsgoodonmenu.com/thumbnail.html">
+				<div class="add_tab">
+				<h2>Find a Restuarant </h2>
+					<!--Using Datalist-->
+					<input class="text_input" id="location" list="cities" placeholder="Location">
+			  		<datalist id="cities">
+			   			<option value="San Francisco">
+			    			<option value="New York">
+				    		<option Value="Los Angeles">
+				    		<option value="San Diego">
+				    		<option value="Chicago">
+				    		<option value="Masachusetts">
+				    		<option value="Washington">
+				    		<option value="Miami">
+				    		<option value="Seattle">
+			  		</datalist>
+			  		<br/>
+					<label class="label_text" for="select">Make a selection:</label><br/>
+					<select class="dropdown_option" id="select">
+			  			<option>Restaurants
+			  			<option>Bars
+			  			<option>Delivery
+			  			<option>Takeout
+			  			<option>Make a reservation
+					</select>
+					<br/>
+					<label class="label_text" for="Cuisine">Cuisine:</label><br/>
+					<select class="dropdown_option" id="Cuisine">
+			  			<option selected>American
+			  			<option>Burmese
+			  			<option>Chinese
+			  			<option>Ethiopian
+			  			<option>Indian
+			 			<option>Italian
+			 			<option>Japanese
+			 			<option>Korean
+			 			<option>Mexican
+			 			<option>Thai	
+					</select>
+					<br/>
+					<label class="label_text" for="Quickselect">Quick Search:</label><br/>
+					<select id="Quickselect" class="dropdown_option" size="4" multiple >
+			   			<option> Italian: Victors Pizza
+			    			<option> American: MKT Restaurant and Bar
+			    			<option> Ethiopian: Sheiba Piano Lounge
+			   			<option> Japanese: Akira
+			    			<option> Chinese: Henry&apos;s Hunan
+			    			<option> Indian: Dosa
+			   			<option> Korean: Izakaya
+			  		</select>
+			  		<br/>
+			  		<label class="label_text" for="intNumber">Price:</label><br/>
+			  		<input type="range" id="intNumber" min="0" max="20" value="10">
+			  		<br/>
+					<div>
+			  			<input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;
+			  			<input type="reset" value="Reset">
+			  		</div>
+		  		</div>
+		  	</form>
+		</div>
+		<div>
+			<iframe class="iframe_footer" src="footer.html"></iframe>
+		</div>	
+	</body>
+</html>

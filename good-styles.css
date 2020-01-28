@@ -1,0 +1,242 @@
+/*Body attributes */    
+body	{background:white;
+	color: black;
+	font-family:"Times New Roman", Times, sans-serif;
+	}
+	
+/*Subsection title for about us page*/    
+.info	{text-align:left;
+        text-color: #000000;
+        font-weight: bold;
+        background: white;
+        font-family:"Times New Roman", Times, sans-serif;
+        font-size:large;
+        border: 2px solid black;
+        padding: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+       	}
+       	
+/*link colors for body of all pages */           	
+a:link	{color: #0000EE;}
+a:visited{color:#551A8B;}
+a:hover	{color: #990033;}
+a:active{color: #EE000;}
+
+/*star for reviews*/
+.checked {
+	color: orange;
+	}
+
+.iframe_youtube {width:100%;
+		height:auto;
+		}
+
+/* iframe tag*/    
+.iframe_header 	{
+		width:100%;
+		height: 114px;
+		border: 0px;
+		display:block;
+		overflow: hidden;
+		margin: 0px ;
+		}
+
+.iframe_footer	{
+		width:100%;
+		height: 130px;
+		border: 0px;
+		display: block;
+		overflow: hidden;
+		margin: 0px ;
+		}
+		
+/* Heading for footer table*/
+.footer_table_heading	{background: #C21A09;
+			color: white;
+			height: 28px;
+			}
+/* Footer table*/		
+.footer_table 	{
+    		border: 0px white;
+    		border-collapse: collapse;
+    		text-align: left;
+		width: 100%;
+		height: 100%;
+		}
+			
+/*contact email*/    		
+span.bold	{font-size: medium;
+     		font-weight:bold; 
+     		text-decoration: underline;
+     		}
+     			 	
+/*border for about us page text*/    
+.outer	{text-align: center;
+        color: white;
+        font-weight: bold;
+        background: #008ECC;
+        font-family:"Times New Roman", Times, sans-serif;
+        font-size:medium;
+        border: 2px none;
+        padding: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-decoration: none;
+        }
+        
+ /*descriptive text written in about us page*/ 
+.inner  {text-align:left;
+	text-color: #000000;
+	background: white;
+	font-family:"Times New Roman", Times, sans-serif;
+	font-size: medium;
+	font-weight:normal;
+	border: 2px none;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+input[type=submit]
+		{
+  		background-color: #C21A09;
+  		border: none;
+  		color: white;
+  		padding: 12px 20px;
+  		text-decoration: none;
+  		margin: 4px 2px;
+  		cursor: pointer;
+  		font-size:small;
+  		}
+
+
+input[type=reset] 
+		{
+		background-color: #C21A09;
+  		border: none;
+  		color: white;
+  		padding: 12px 20px;
+  		text-decoration: none;
+  		margin: 4px 2px;
+  		cursor: pointer;
+  		font-size:small;
+  		}
+
+/* facebook input button */		
+.facebook_button{
+		width: 15%;
+		background-color: #4267b2;
+  		border: none;
+  		padding: 10px 28px;
+  		cursor: pointer;
+  		font-size:medium;
+		text-decoration: none;
+  		-webkit-appearance: button;
+    		-moz-appearance: button;
+    		appearance: button;
+    		display:inline-block
+    		}
+
+		
+.facebook_button_div a:hover {
+    			color: white;
+    			}
+.facebook_button_div a:visited {
+    			color: white;
+    			}
+.facebook_button_div a:active {
+    			color: white;
+    			}
+.facebook_button_div a:link {
+    			color: white;
+    			}
+		
+		
+/* google input button  */
+.google_button	{
+		width: 14%;
+		background-color: white;
+  		color: black;
+  		padding: 10px 34px;
+  		cursor: pointer;
+  		border: 0.5px inset;
+  		font-size:medium;
+		text-decoration: none;
+		-webkit-appearance: button;
+    		-moz-appearance: button;
+    		appearance: button;
+    		display:inline-block
+		}
+		
+.google_button_div a:hover {
+    			color: black;
+    			}
+.google_button_div a:visited {
+    			color: black;
+    			}
+.google_button_div a:active {
+    			color: black;
+    			}
+.google_button_div a:link {
+    			color: black;
+    			}
+		
+/*text input tags e.g. name,email */
+.text_input 	{
+		font-size:small;
+		width: 20%;
+  		padding:7px;
+  		margin: 2px;
+  		box-sizing: border-box;
+  		:focus{
+  			border: 0.5px inset;
+			}
+		}
+		
+/*textarea tag*/
+.text_area 	{
+		width: 20%;
+		height: 100px;
+  		padding: 7px;
+  		border: 0.5px solid #ccc;
+  		background-color: white;
+  		font-size: 16px;
+		}
+		
+/*dropdown options*/		
+.dropdown_option{
+		width: 20%;
+ 	 	padding: 7px;
+  		border: 4px;
+  		background-color: white;
+  		font-size:small;
+  		}
+  		
+/* Text inside label tag */
+.label_text	{
+  		padding: 12px 12px 12px 0;
+  		display: inline-block;
+		}
+		
+/*text for radio buttons*/
+.radio_text	{
+  		padding: 12px 12px 12px 0;
+  		display: inline-block;
+		}
+
+/* Main grey box for forms */
+.container_form {
+  		background-color: #f2f2f2;
+		}
+
+/*move text in the form to center*/
+.add_tab	{
+		text-align:center;
+		margin: auto;
+  		padding: 10px;
+		}
+		
